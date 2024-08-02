@@ -1,4 +1,4 @@
-cabeçalho__menu-hamburguer {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -12,8 +12,8 @@ cabeçalho__menu-hamburguer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
-
 
 .container {
     display: flex;
@@ -21,4 +21,12 @@ cabeçalho__menu-hamburguer {
 }
 .container__imagem {
     padding: 1em;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%; 
+}
+.container__botao:checked ~ .lista-menu {
+    display: block;
 }
