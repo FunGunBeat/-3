@@ -1,3 +1,5 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
 :root {
     --cor-de-fundo: #ffffff;
     --branco: #FFFFFF;
@@ -15,5 +17,4 @@ body
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    @import url("styles/header.css");
-    @import url("styles/banner.css");  
+
